@@ -66,7 +66,7 @@ type spyContainerStopper struct {
 
 func (s spyContainerStopper) Stop(id string) error {
     s.id = id
-    return n.err
+    return s.err
 }
 ```
 
